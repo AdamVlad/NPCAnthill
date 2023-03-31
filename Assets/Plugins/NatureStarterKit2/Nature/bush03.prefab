@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 19375756}
   - component: {fileID: 3343124}
   - component: {fileID: 2322364}
+  - component: {fileID: 2249378056374457690}
   m_Layer: 0
   m_Name: bush03
   m_TagString: Untagged
@@ -28,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 193742}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.3435, y: 2.3435, z: 2.3435}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -94,6 +95,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!136 &2249378056374457690
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193742}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.22558391
+  m_Height: 1.3163784
+  m_Direction: 1
+  m_Center: {x: -0.03752122, y: 0.38858074, z: 0.029509936}
 --- !u!21 &2114920
 Material:
   serializedVersion: 8

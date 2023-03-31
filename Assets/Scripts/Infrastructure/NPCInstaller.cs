@@ -1,3 +1,4 @@
+using Assets.Scripts.Entities;
 using Assets.Scripts.Interfaces;
 
 using UnityEngine;
@@ -13,6 +14,7 @@ namespace Assets.Scripts.Infrastructure
         public override void InstallBindings()
         {
             InstallRandomPointGenerator();
+            InstallUniqueNumberGenerator();
         }
 
         private void InstallRandomPointGenerator()
@@ -22,6 +24,14 @@ namespace Assets.Scripts.Infrastructure
                 .To<NavMeshRandomPointGenerator>()
                 .AsSingle()
                 .WithArguments(_surfaceCenter.position, _searchRange);
+        }
+
+        private void InstallUniqueNumberGenerator()
+        {
+            Container
+                .Bind<IUniqueGenerator<int>>()
+                .To<UniqueNumberGenerator>()
+                .AsSingle();
         }
     }
 }

@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.AI;
 using Zenject;
 
-namespace Assets.Scripts
+namespace Assets.Scripts.Entities
 {
     [RequireComponent(
         typeof(NavMeshAgent),

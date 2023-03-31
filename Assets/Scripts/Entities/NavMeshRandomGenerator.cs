@@ -1,10 +1,9 @@
 using Assets.Scripts.Interfaces;
-
 using UnityEngine;
 using UnityEngine.AI;
 using Random = UnityEngine.Random;
 
-namespace Assets.Scripts
+namespace Assets.Scripts.Entities
 {
     public class NavMeshRandomPointGenerator : IRandomPointGenerator
     {

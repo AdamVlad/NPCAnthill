@@ -1,3 +1,4 @@
+using Assets.Scripts.Entities;
 using Assets.Scripts.Factories;
 
 using UnityEngine;

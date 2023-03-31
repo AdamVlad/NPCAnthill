@@ -1,4 +1,5 @@
-﻿using Zenject;
+﻿using Assets.Scripts.Entities;
+using Zenject;
 
 namespace Assets.Scripts.Factories
 {

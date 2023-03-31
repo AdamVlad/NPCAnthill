@@ -4,7 +4,6 @@ using Assets.Scripts.Factories;
 using UnityEngine;
 using Zenject;
 
-
 namespace Assets.Scripts
 {
     public class GameStarter : MonoBehaviour
